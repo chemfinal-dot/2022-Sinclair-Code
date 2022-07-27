@@ -1,6 +1,6 @@
 alpha = 'a':'d';
 length_word = 5; num_words = 1;
-word = alpha(randi(numel(alpha),num_words,length_word)) %consecutive letters are inverses of each other;
+word = convertCharsToStrings(alpha(randi(numel(alpha),num_words,length_word))) %consecutive letters are inverses of each other;
 red_word = "";
 temp_char = "";
 
